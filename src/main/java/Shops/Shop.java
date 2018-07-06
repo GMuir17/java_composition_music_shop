@@ -1,6 +1,7 @@
 package Shops;
 
 import Behaviours.ISell;
+import Instruments.Guitar;
 
 import java.util.ArrayList;
 
@@ -22,4 +23,7 @@ public class Shop {
         return this.stock;
     }
 
+    public void addToStock(ISell item) {
+        this.stock.add(item);
+    }
 }

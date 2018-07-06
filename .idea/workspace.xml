@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="824beaf0-c294-4144-88ee-d26b5cfe9bd8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Shops/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shops/Shop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Shops/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Shops/ShopTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,12 +45,9 @@
           <file leaf-file-name="ShopTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/Shops/ShopTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+                <state relative-caret-position="180">
+                  <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
                   <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#127#128#0" expanded="true" />
-                    <element signature="e#164#165#0" expanded="true" />
                     <element signature="e#321#322#0" expanded="true" />
                     <element signature="e#348#349#0" expanded="true" />
                   </folding>
@@ -395,8 +391,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" />
         <option value="$PROJECT_DIR$/src/test/java/Instruments/GuitarTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Instruments/PianoTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Shops/ShopTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Shops/Shop.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Shops/ShopTest.java" />
       </list>
     </option>
   </component>
@@ -491,32 +487,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest">
+  <component name="RunManager" selected="JUnit.ShopTest.canAddInstrumentToStock">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="CapoTest.canCalculateMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="musicExchangeHomework_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Items.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Items" />
-      <option name="MAIN_CLASS_NAME" value="Items.CapoTest" />
-      <option name="METHOD_NAME" value="canCalculateMarkup" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="GuitarTest.canCalculateMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="musicExchangeHomework_test" />
@@ -610,6 +583,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="ShopTest.canAddInstrumentToStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="musicExchangeHomework_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Shops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Shops" />
+      <option name="MAIN_CLASS_NAME" value="Shops.ShopTest" />
+      <option name="METHOD_NAME" value="canAddInstrumentToStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -649,19 +645,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CapoTest.canCalculateMarkup" />
       <item itemvalue="JUnit.SheetMusicTest" />
       <item itemvalue="JUnit.GuitarTest.canCalculateMarkup" />
       <item itemvalue="JUnit.PianoTest.canCalculateMarkup" />
       <item itemvalue="JUnit.ShopTest" />
+      <item itemvalue="JUnit.ShopTest.canAddInstrumentToStock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopTest.canAddInstrumentToStock" />
         <item itemvalue="JUnit.ShopTest" />
         <item itemvalue="JUnit.PianoTest.canCalculateMarkup" />
         <item itemvalue="JUnit.GuitarTest.canCalculateMarkup" />
         <item itemvalue="JUnit.SheetMusicTest" />
-        <item itemvalue="JUnit.CapoTest.canCalculateMarkup" />
       </list>
     </recent_temporary>
   </component>
@@ -679,9 +675,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GuitarTest_hasGuitarType - 2018.07.06 at 12h 31m 12s.xml">
-      <configuration name="GuitarTest.hasGuitarType" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PianoTest - 2018.07.06 at 12h 36m 12s.xml">
       <configuration name="PianoTest" configurationId="JUnit" />
     </history-entry>
@@ -709,6 +702,9 @@
     <history-entry file="PianoTest_canCalculateMarkup - 2018.07.06 at 12h 58m 09s.xml">
       <configuration name="PianoTest.canCalculateMarkup" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShopTest - 2018.07.06 at 13h 04m 14s.xml">
+      <configuration name="ShopTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -727,7 +723,7 @@
       <window_info anchor="bottom" id="Terminal" weight="0.32965517" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15105008" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15105008" />
       <window_info anchor="bottom" id="Build" weight="0.32941177" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -930,12 +926,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Shops/ShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="180">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
             <element signature="e#321#322#0" expanded="true" />
             <element signature="e#348#349#0" expanded="true" />
           </folding>
