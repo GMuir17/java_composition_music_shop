@@ -15,10 +15,14 @@ public class GuitarTest {
     }
 
     @Test
-    public void hasMaterial() {
+    public void hasName() {
         assertEquals("Jazz", this.guitar.getName());
     }
 
+    @Test
+    public void hasMaterial() {
+        assertEquals("Maple", this.guitar.getMaterial());
+    }
 
 
 
