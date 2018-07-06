@@ -4,13 +4,15 @@ import Behaviours.IPlay;
 
 public abstract class Instrument implements IPlay {
 
+    private String name;
     private String material;
     private String sound;
     private InstrumentFamily family;
     private int buyingPrice;
     private int sellingPrice;
 
-    public Instrument(String material, String sound, InstrumentFamily family, int buyingPrice, int sellingPrice) {
+    public Instrument(String name, String material, String sound, InstrumentFamily family, int buyingPrice, int sellingPrice) {
+        this.name = name;
         this.material = material;
         this.sound = sound;
         this.family = family;
@@ -20,6 +22,10 @@ public abstract class Instrument implements IPlay {
 
     public String getMaterial() {
         return this.material;
+    }
+
+    public String getName() {
+        return this.name;
     }
 
     public InstrumentFamily getInstrumentFamily() {
