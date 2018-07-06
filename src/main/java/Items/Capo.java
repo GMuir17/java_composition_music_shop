@@ -1,6 +1,8 @@
 package Items;
 
-public class Capo {
+import Behaviours.ISell;
+
+public class Capo implements ISell {
 
     private String description;
     private int buyingPrice;
@@ -23,4 +25,10 @@ public class Capo {
     public int getSellingPrice() {
         return this.sellingPrice;
     }
+
+    public int calculateMarkup() {
+        int markup = this.sellingPrice - this.buyingPrice;
+        return markup;
+    }
+
 }

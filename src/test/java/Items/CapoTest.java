@@ -29,5 +29,10 @@ public class CapoTest {
         assertEquals(10, capo.getSellingPrice());
     }
 
+    @Test
+    public void canCalculateMarkup() {
+        assertEquals(8, capo.calculateMarkup());
+    }
+
 
 }

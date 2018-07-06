@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="824beaf0-c294-4144-88ee-d26b5cfe9bd8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Behaviours/ISell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Behaviours/ISell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/Capo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/Capo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Items/CapoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Items/CapoTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,12 +28,25 @@
           <file leaf-file-name="Capo.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Items/Capo.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+                <state relative-caret-position="435">
+                  <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
                   <folding>
                     <element signature="e#378#379#0" expanded="true" />
                     <element signature="e#404#405#0" expanded="true" />
+                    <element signature="e#440#441#0" expanded="true" />
+                    <element signature="e#466#467#0" expanded="true" />
+                    <element signature="e#519#520#0" expanded="true" />
+                    <element signature="e#550#551#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ISell.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/ISell.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -43,13 +58,17 @@
           <file leaf-file-name="CapoTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/Items/CapoTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+                <state relative-caret-position="465">
+                  <caret line="33" selection-start-line="33" selection-end-line="33" />
                   <folding>
                     <element signature="e#127#128#0" expanded="true" />
                     <element signature="e#164#165#0" expanded="true" />
                     <element signature="e#252#253#0" expanded="true" />
                     <element signature="e#273#274#0" expanded="true" />
+                    <element signature="e#409#410#0" expanded="true" />
+                    <element signature="e#439#440#0" expanded="true" />
+                    <element signature="e#513#514#0" expanded="true" />
+                    <element signature="e#543#544#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -385,9 +404,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Instruments/Piano.java" />
         <option value="$PROJECT_DIR$/src/test/java/Instruments/GuitarTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Instruments/PianoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Items/CapoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Behaviours/ISell.java" />
         <option value="$PROJECT_DIR$/src/main/java/Items/Capo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Items/CapoTest.java" />
       </list>
     </option>
   </component>
@@ -428,6 +447,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicExchangeHomework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicExchange" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Behaviours" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="musicExchangeHomework" type="b2602c69:ProjectViewProjectNode" />
@@ -498,7 +525,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CapoTest.hasSellingPrice">
+  <component name="RunManager" selected="JUnit.CapoTest.canCalculateMarkup">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -516,6 +543,29 @@
       <option name="MAIN_CLASS_NAME" value="Items.CapoTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CapoTest.canCalculateMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="musicExchangeHomework_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Items.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Items" />
+      <option name="MAIN_CLASS_NAME" value="Items.CapoTest" />
+      <option name="METHOD_NAME" value="canCalculateMarkup" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -561,29 +611,6 @@
       <option name="PACKAGE_NAME" value="Items" />
       <option name="MAIN_CLASS_NAME" value="Items.CapoTest" />
       <option name="METHOD_NAME" value="hasSellingPrice" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="GuitarTest.hasGuitarType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="musicExchangeHomework_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Instruments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Instruments" />
-      <option name="MAIN_CLASS_NAME" value="Instruments.GuitarTest" />
-      <option name="METHOD_NAME" value="hasGuitarType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -656,19 +683,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.GuitarTest.hasGuitarType" />
       <item itemvalue="JUnit.PianoTest" />
       <item itemvalue="JUnit.CapoTest" />
       <item itemvalue="JUnit.CapoTest.hasBuyingPrice" />
       <item itemvalue="JUnit.CapoTest.hasSellingPrice" />
+      <item itemvalue="JUnit.CapoTest.canCalculateMarkup" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CapoTest.canCalculateMarkup" />
         <item itemvalue="JUnit.CapoTest.hasSellingPrice" />
         <item itemvalue="JUnit.CapoTest.hasBuyingPrice" />
         <item itemvalue="JUnit.CapoTest" />
         <item itemvalue="JUnit.PianoTest" />
-        <item itemvalue="JUnit.GuitarTest.hasGuitarType" />
       </list>
     </recent_temporary>
   </component>
@@ -686,12 +713,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GuitarTest - 2018.07.06 at 11h 41m 21s.xml">
-      <configuration name="GuitarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuitarTest_hasName - 2018.07.06 at 11h 42m 08s.xml">
-      <configuration name="GuitarTest.hasName" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GuitarTest - 2018.07.06 at 11h 42m 11s.xml">
       <configuration name="GuitarTest" configurationId="JUnit" />
     </history-entry>
@@ -716,6 +737,12 @@
     <history-entry file="CapoTest - 2018.07.06 at 12h 43m 30s.xml">
       <configuration name="CapoTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CapoTest_hasBuyingPrice - 2018.07.06 at 12h 45m 54s.xml">
+      <configuration name="CapoTest.hasBuyingPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CapoTest_hasSellingPrice - 2018.07.06 at 12h 46m 44s.xml">
+      <configuration name="CapoTest.hasSellingPrice" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -734,7 +761,7 @@
       <window_info anchor="bottom" id="Terminal" weight="0.32965517" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15105008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15105008" />
       <window_info anchor="bottom" id="Build" weight="0.32941177" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -864,33 +891,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/ISell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Items/Capo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Items/CapoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="465">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#127#128#0" expanded="true" />
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
             <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/ISell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Items/Capo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
           </folding>
         </state>
       </provider>
