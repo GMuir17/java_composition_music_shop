@@ -16,6 +16,9 @@ public class Capo {
         return this.description;
     }
 
+    public int getBuyingPrice() {
+        return this.buyingPrice;
+    }
 
 
 }

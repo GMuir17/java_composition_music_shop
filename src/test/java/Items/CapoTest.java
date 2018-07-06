@@ -19,5 +19,10 @@ public class CapoTest {
         assertEquals("Trigger Black", capo.getDescription());
     }
 
+    @Test
+    public void hasBuyingPrice() {
+        assertEquals(2, capo.getBuyingPrice());
+    }
+
 
 }

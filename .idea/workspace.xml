@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="824beaf0-c294-4144-88ee-d26b5cfe9bd8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Behaviours/ISell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Behaviours/ISell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Items/CapoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Items/CapoTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,8 +26,12 @@
           <file leaf-file-name="Capo.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Items/Capo.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+                <state relative-caret-position="240">
+                  <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#378#379#0" expanded="true" />
+                    <element signature="e#404#405#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -40,11 +43,13 @@
           <file leaf-file-name="CapoTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/Items/CapoTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+                <state relative-caret-position="285">
+                  <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
                   <folding>
                     <element signature="e#127#128#0" expanded="true" />
                     <element signature="e#164#165#0" expanded="true" />
+                    <element signature="e#252#253#0" expanded="true" />
+                    <element signature="e#273#274#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -381,6 +386,7 @@
         <option value="$PROJECT_DIR$/src/test/java/Instruments/GuitarTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Instruments/PianoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Behaviours/ISell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Items/Capo.java" />
         <option value="$PROJECT_DIR$/src/test/java/Items/CapoTest.java" />
       </list>
     </option>
@@ -492,7 +498,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CapoTest">
+  <component name="RunManager" selected="JUnit.CapoTest.hasBuyingPrice">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -510,6 +516,29 @@
       <option name="MAIN_CLASS_NAME" value="Items.CapoTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CapoTest.hasBuyingPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="musicExchangeHomework_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Items.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Items" />
+      <option name="MAIN_CLASS_NAME" value="Items.CapoTest" />
+      <option name="METHOD_NAME" value="hasBuyingPrice" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -555,29 +584,6 @@
       <option name="PACKAGE_NAME" value="Instruments" />
       <option name="MAIN_CLASS_NAME" value="Instruments.GuitarTest" />
       <option name="METHOD_NAME" value="hasGuitarType" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="GuitarTest.hasSellingPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="musicExchangeHomework_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Instruments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Instruments" />
-      <option name="MAIN_CLASS_NAME" value="Instruments.GuitarTest" />
-      <option name="METHOD_NAME" value="hasSellingPrice" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -650,19 +656,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.GuitarTest.hasSellingPrice" />
       <item itemvalue="JUnit.GuitarTest.canPlay" />
       <item itemvalue="JUnit.GuitarTest.hasGuitarType" />
       <item itemvalue="JUnit.PianoTest" />
       <item itemvalue="JUnit.CapoTest" />
+      <item itemvalue="JUnit.CapoTest.hasBuyingPrice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CapoTest.hasBuyingPrice" />
         <item itemvalue="JUnit.CapoTest" />
         <item itemvalue="JUnit.PianoTest" />
         <item itemvalue="JUnit.GuitarTest.hasGuitarType" />
         <item itemvalue="JUnit.GuitarTest.canPlay" />
-        <item itemvalue="JUnit.GuitarTest.hasSellingPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -707,6 +713,9 @@
     <history-entry file="PianoTest - 2018.07.06 at 12h 36m 12s.xml">
       <configuration name="PianoTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CapoTest - 2018.07.06 at 12h 43m 30s.xml">
+      <configuration name="CapoTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -725,7 +734,7 @@
       <window_info anchor="bottom" id="Terminal" weight="0.32965517" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15105008" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15105008" />
       <window_info anchor="bottom" id="Build" weight="0.32941177" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -864,18 +873,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Items/Capo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="240">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Items/CapoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="285">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding>
             <element signature="e#127#128#0" expanded="true" />
             <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
           </folding>
         </state>
       </provider>
