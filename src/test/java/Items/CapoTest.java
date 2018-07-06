@@ -24,5 +24,10 @@ public class CapoTest {
         assertEquals(2, capo.getBuyingPrice());
     }
 
+    @Test
+    public void hasSellingPrice() {
+        assertEquals(10, capo.getSellingPrice());
+    }
+
 
 }

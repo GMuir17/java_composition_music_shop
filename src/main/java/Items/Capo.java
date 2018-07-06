@@ -20,5 +20,7 @@ public class Capo {
         return this.buyingPrice;
     }
 
-
+    public int getSellingPrice() {
+        return this.sellingPrice;
+    }
 }
