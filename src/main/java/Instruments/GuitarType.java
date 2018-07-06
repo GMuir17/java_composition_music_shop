@@ -4,7 +4,8 @@ public enum GuitarType {
 
     BASS,
     CLASSICAL,
-    STEEL
+    STEEL,
+    ELECTRIC
 
 //    private final String noise;
 //

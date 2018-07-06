@@ -11,7 +11,7 @@ public class GuitarTest {
 
     @Before
     public void setUp() {
-        this.guitar = new Guitar("Jazz", "Maple", "Schring", InstrumentFamily.STRING, 100, 150);
+        this.guitar = new Guitar("Jazz", "Maple", "Schring", InstrumentFamily.STRING, 100, 150, GuitarType.BASS);
     }
 
     @Test
@@ -42,6 +42,11 @@ public class GuitarTest {
     @Test
     public void canPlay() {
         assertEquals("Schring", guitar.play());
+    }
+
+    @Test
+    public void hasGuitarType() {
+        assertEquals(GuitarType.BASS, guitar.getType());
     }
 
 }
