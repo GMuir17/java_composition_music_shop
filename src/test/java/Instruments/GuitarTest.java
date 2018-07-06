@@ -24,6 +24,11 @@ public class GuitarTest {
         assertEquals("Maple", this.guitar.getMaterial());
     }
 
+    @Test
+    public void hasFamily() {
+        assertEquals(InstrumentFamily.STRING, guitar.getInstrumentFamily());
+    }
+
 
 
 }
