@@ -1,6 +1,8 @@
 package Items;
 
-public class SheetMusic {
+import Behaviours.ISell;
+
+public class SheetMusic implements ISell {
 
     private String description;
     private int buyingPrice;

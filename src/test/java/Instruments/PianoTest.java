@@ -49,4 +49,9 @@ public class PianoTest {
         assertEquals(PianoType.ELECTRIC, piano.getType());
     }
 
+    @Test
+    public void canCalculateMarkup() {
+        assertEquals(1500, piano.calculateMarkup());
+    }
+
 }

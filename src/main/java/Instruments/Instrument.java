@@ -1,8 +1,9 @@
 package Instruments;
 
 import Behaviours.IPlay;
+import Behaviours.ISell;
 
-public abstract class Instrument implements IPlay {
+public abstract class Instrument implements IPlay, ISell {
 
     private String name;
     private String material;
@@ -42,6 +43,11 @@ public abstract class Instrument implements IPlay {
 
     public String play() {
         return this.sound;
+    }
+
+    public int calculateMarkup() {
+        int markup = this.sellingPrice - this.buyingPrice;
+        return markup;
     }
 
 
