@@ -29,6 +29,10 @@ public class GuitarTest {
         assertEquals(InstrumentFamily.STRING, guitar.getInstrumentFamily());
     }
 
+    @Test
+    public void hasBuyingPrice() {
+        assertEquals(100, guitar.getBuyingPrice());
+    }
 
 
 }
