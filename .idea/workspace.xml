@@ -489,32 +489,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest.canAddItemToStock">
+  <component name="RunManager" selected="JUnit.ShopTest.canRemoveISellsFromStock">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="GuitarTest.canCalculateMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="musicExchangeHomework_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Instruments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Instruments" />
-      <option name="MAIN_CLASS_NAME" value="Instruments.GuitarTest" />
-      <option name="METHOD_NAME" value="canCalculateMarkup" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="PianoTest.canCalculateMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="musicExchangeHomework_test" />
@@ -608,6 +585,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="ShopTest.canRemoveISellsFromStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="musicExchangeHomework_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Shops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Shops" />
+      <option name="MAIN_CLASS_NAME" value="Shops.ShopTest" />
+      <option name="METHOD_NAME" value="canRemoveISellsFromStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -647,19 +647,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.GuitarTest.canCalculateMarkup" />
       <item itemvalue="JUnit.PianoTest.canCalculateMarkup" />
       <item itemvalue="JUnit.ShopTest" />
       <item itemvalue="JUnit.ShopTest.canAddInstrumentToStock" />
       <item itemvalue="JUnit.ShopTest.canAddItemToStock" />
+      <item itemvalue="JUnit.ShopTest.canRemoveISellsFromStock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopTest.canRemoveISellsFromStock" />
         <item itemvalue="JUnit.ShopTest.canAddItemToStock" />
         <item itemvalue="JUnit.ShopTest.canAddInstrumentToStock" />
         <item itemvalue="JUnit.ShopTest" />
         <item itemvalue="JUnit.PianoTest.canCalculateMarkup" />
-        <item itemvalue="JUnit.GuitarTest.canCalculateMarkup" />
       </list>
     </recent_temporary>
   </component>

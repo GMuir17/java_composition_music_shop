@@ -48,4 +48,13 @@ public class ShopTest {
         ArrayList emptyStock = shop.getStock();
         assertEquals(1, emptyStock.size());
     }
+
+    @Test
+    public void canRemoveISellsFromStock() {
+        shop.addToStock(guitar);
+        shop.addToStock(capo);
+        shop.removeFromStock(capo);
+        ArrayList emptyStock = shop.getStock();
+        assertEquals(1, emptyStock.size());
+    }
 }
