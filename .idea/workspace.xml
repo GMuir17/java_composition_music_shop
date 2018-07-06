@@ -525,7 +525,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CapoTest.canCalculateMarkup">
+  <component name="RunManager" selected="JUnit.SheetMusicTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -621,18 +621,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PianoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SheetMusicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="musicExchangeHomework_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Instruments.*" />
+          <option name="PATTERN" value="Items.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Instruments" />
-      <option name="MAIN_CLASS_NAME" value="Instruments.PianoTest" />
+      <option name="PACKAGE_NAME" value="Items" />
+      <option name="MAIN_CLASS_NAME" value="Items.SheetMusicTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -683,19 +683,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PianoTest" />
       <item itemvalue="JUnit.CapoTest" />
       <item itemvalue="JUnit.CapoTest.hasBuyingPrice" />
       <item itemvalue="JUnit.CapoTest.hasSellingPrice" />
       <item itemvalue="JUnit.CapoTest.canCalculateMarkup" />
+      <item itemvalue="JUnit.SheetMusicTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SheetMusicTest" />
         <item itemvalue="JUnit.CapoTest.canCalculateMarkup" />
         <item itemvalue="JUnit.CapoTest.hasSellingPrice" />
         <item itemvalue="JUnit.CapoTest.hasBuyingPrice" />
         <item itemvalue="JUnit.CapoTest" />
-        <item itemvalue="JUnit.PianoTest" />
       </list>
     </recent_temporary>
   </component>
